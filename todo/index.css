@@ -1,0 +1,33 @@
+input, select, textarea {
+    display: block;
+    margin: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:mediumseagreen;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5em 4px;
+}
+
+.inline {
+    display: inline;
+}
+
+body {
+    background-image:url('road.jpg');
+    text-align: center;
+}
+
+.form-container {
+    padding: 5px;
+    border-radius: 5px;
+    background-color:mediumorchid; 
+    width:40%;
+    margin-left: 30%;
+    margin-top:60px;
+}

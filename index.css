@@ -1,0 +1,70 @@
+body {
+    background-color: #9A9A9A;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h4 {
+    margin: 0px;
+}
+
+.header, .card {
+    background-color: #FFFFFF;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    height:40px;
+    background-color: brown;
+    color:white;
+}
+
+.container {
+    display: flex;
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.right-sticky {
+    background-color: white;
+    height:20rem;
+    position:sticky;
+    top:40px;
+}
+#last{
+    background-color: white;
+    height:20rem;
+    position:sticky;
+    top:40px;
+}
+.covid{
+    height:200px;
+    width:200px;
+    position:fixed;
+    bottom:0px;
+    right:10px;
+}
